@@ -15,13 +15,13 @@ export default {
         'es2016',
         'es2017',
         'stage-3',
-        'stage-2',
+        'stage-2'
       ],
       plugins: [
-        'external-helpers',
+        'external-helpers'
       ],
-      babelrc: false,
-    }),
+      babelrc: false
+    })
   ],
   output: {
     format: 'umd',
@@ -29,6 +29,6 @@ export default {
     extend: true,
     name: 'Boilerplate',
     file: './dist/index.js',
-    sourcemap: true,
-  },
+    sourcemap: true
+  }
 }
