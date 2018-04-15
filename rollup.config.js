@@ -12,10 +12,10 @@ export default {
     commonjs(),
     babel({
       presets: [
-        ['es2015', { modules: false }],
         'es2016',
         'es2017',
         'stage-3',
+        'stage-2',
       ],
       plugins: [
         'external-helpers',
